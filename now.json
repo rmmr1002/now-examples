@@ -20,7 +20,7 @@
     { "src": "nodejs/*.js", "use": "@now/node" },
     { "src": "php-7/*.php", "use": "@now/php" },
     { "src": "python/*.py", "use": "@now/python", "config": { "maxLambdaSize": "10mb" } },
-    { "src": "python-flask/*.py", "use": "@now/python@canary" },
+    { "src": "python-flask/*.py", "use": "@now/python@canary", "config": { "maxLambdaSize": "10mb" } },
     { "src": "vue/package.json", "use": "@now/static-build" },
     { "src": "create-react-app/package.json", "use": "@now/static-build", "config": { "distDir": "build" } },
     { "src": "static/**", "use": "@now/static" },
